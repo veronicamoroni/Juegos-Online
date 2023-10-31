@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size:  100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+nav ul li a {
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #FF0000; 
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #a4d30b;
+}
+.game img {
+border: 2px solid #000; 
+border-radius: 10px;   
+max-width: 100%;
+height: auto;
+}
+.game-container {
+    display: flex;
+    overflow: auto; 
+}
+
+.game {
+display: inline-block; 
+width: 300px;
+margin: 10px;
+padding: 20px;
+background-color: #3a3ac4;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.game-image {
+
+display: flex;
+align-items: center;
+justify-content: center;
+width: 200px; 
+height: 200px; 
+}
+
+.game-description {
+    padding: 10px;
+    text-align: center;
+}
+
+.game-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.game-button {
+    background-color: #ab0c98;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.game-button:hover {
+    background-color: #2980b9;
+}
+.carousel-container {
+    width: 5000px; 
+    overflow: hidden;
+}
+.image-carousel {
+    white-space: nowrap;
+    width: 100%; 
+}
+
+
+.image-carousel img {
+    display: inline-block;
+    width: 1000px;
+    height: auto;
+} 
+

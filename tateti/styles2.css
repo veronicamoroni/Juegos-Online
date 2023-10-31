@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('descarga.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  background-color: rgba(25, 206, 209, 0.805); /* Fondo semi-transparente para que el texto sea legible */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+
+
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #bf07c5;
+    border: 2px solid #06b45d;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+
+  .cell.winner {
+    background-color: #b90808; /* Color de fondo de la celda ganadora */
+  }
+
+  .cell:hover {
+    background-color: #96e40e;
+  }
+
+ 
+
+  .cell.O {
+    color: #27ae60;
+    font-weight: bold;
+  }
+
+  button {
+    font-size: 16px;
+    background-color: #19c7b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .description {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    list-style: disc; /* Agregar viñetas */
+    padding-left: 20px; /* Espacio adicional a la izquierda para las viñetas */
+    text-align: center; /* Alineación al centro */
+}
+  h1, ul {
+    color: white;
+  }
+
+  .description {
+    list-style: none;
+   
+   
+  }
